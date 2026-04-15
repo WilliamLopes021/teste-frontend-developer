@@ -1,0 +1,36 @@
+@use "../base/tokens" as *;
+
+.aura {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $bg-highlight;
+  background-color: transparent;
+  border-radius: 50%;
+  will-change: transform;
+  z-index: 9999;
+  pointer-events: none;
+  transition: transform 0.10s ease-out;
+}
+
+.mouse {
+  position: fixed;
+  will-change: transform;
+  width: 10px;
+  height: 10px;
+  background-color: $bg-highlight;
+  border-radius: 50%;
+  z-index: 9999;
+  pointer-events: none;
+  
+}
+
+@media (max-width: 820px) {
+  .mouse,
+  .aura {
+    display: none;
+  }
+}

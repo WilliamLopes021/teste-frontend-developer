@@ -1,0 +1,13 @@
+@use "../base/tokens" as *;
+
+.footer-container {
+  color: $text-primary;
+  width: 100%;
+  border-top: 1px solid $bg-secondary;
+  background-color: $bg-primary-accent;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}

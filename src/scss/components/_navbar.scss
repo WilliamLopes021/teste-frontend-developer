@@ -1,0 +1,26 @@
+@use "../base/tokens" as *;
+
+.nav-item a {
+  text-decoration: none;
+  color: $text-primary;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 1px;
+  width: 0%;
+  background-color: $bg-secondary;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}

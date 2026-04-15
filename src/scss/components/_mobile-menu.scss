@@ -1,0 +1,45 @@
+@use "../base/tokens" as *;
+
+.mobile {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-nav-links {
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 100%;
+  background-color: $bg-primary;
+  padding: 1rem;
+}
+
+.mobile-nav-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.active {
+  display: block;
+}
+
+@media (min-width: 820px) {
+  .mobile {
+    display: none;
+  }
+
+  .mobile-nav-links {
+    display: none;
+  }
+}

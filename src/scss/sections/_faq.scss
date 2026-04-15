@@ -1,0 +1,15 @@
+@use "../base/tokens" as *;
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $bg-gradient-secondary;
+}
+
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}

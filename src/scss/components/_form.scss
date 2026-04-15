@@ -1,0 +1,11 @@
+@use "../base/tokens" as *;
+
+.form-container {
+  background-color: $card-bg;
+  border: 1px solid $card-border;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

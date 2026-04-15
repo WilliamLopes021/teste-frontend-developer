@@ -1,0 +1,36 @@
+@use "../base/tokens" as *;
+
+.faq-item {
+  background-color: $card-bg;
+  border: 1px solid $card-border;
+  color: $text-black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateX(8px);
+    box-shadow: -4px 0 0 0 $bg-primary, 0 2px 12px rgba(0, 0, 0, 0.08);
+    background-color: lighten($card-bg, 3%);
+  }
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .faq-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+}
+
+.faq-item:hover .faq-icon {
+  transform: rotate(90deg);
+}
+
+.hidden {
+  display: none;
+}
