@@ -1,0 +1,64 @@
+@use "../base/tokens" as *;
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $bg-circle-gradient;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.services-card {
+  font-size: $font-size-h5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: $card-bg;
+  border: 1px solid $card-border;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: $bg-black;
+  margin: 10px 0;
+  transition: all 0.6s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+
+  &.visible {
+    animation: yoyo ease-in-out 1s;
+  }
+}
+
+.services-card img {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 820px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .services-card {
+    font-size: $font-size-h6;
+  }
+}
+
+@keyframes yoyo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

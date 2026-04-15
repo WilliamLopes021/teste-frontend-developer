@@ -1,0 +1,37 @@
+@use "../base/tokens" as *;
+
+.input-field {
+  background-color: $bg-white;
+  border: 1px solid $card-border;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: $bg-black;
+}
+
+.input-field:focus {
+  border-color: $card-border;
+  box-shadow: 0 0 0 2px $card-border;
+}
+
+.input-group {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: $bg-black;
+}
+
+.text-area-field {
+  border-radius: 5px;
+  border: 1px solid $card-border;
+  resize: none;
+  // height: 100px;
+  padding: 10px;
+}
+
+.text-area-field:focus,
+.text-area-field:active {
+  outline: none;
+  border: 1px solid $card-border;
+  box-shadow: 0 0 0 2px $card-border;
+}

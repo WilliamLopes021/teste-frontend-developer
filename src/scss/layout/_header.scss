@@ -1,0 +1,33 @@
+@use "../base/tokens" as *;
+
+.header {
+  width: 100%;
+  background-color: $bg-primary;
+  padding: 1rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  height: 5rem;
+  width: 5rem;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 820px) {
+  .nav-links ul {
+    display: flex;
+    gap: 20px;
+  }
+  .desktop {
+    display: flex;
+  }
+}

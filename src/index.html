@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vidaloka&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./public/img/thirdIconIdea.png" />
+    <title>Ellos Design Test</title>
+  </head>
+  <body>
+    <span class="aura">
+      <span class="mouse"></span>
+    </span>
+    <header class="header desktop" id="desktop-header">
+      <div class="logo-container">
+        <img src="./public/img/logotipo.png" alt="logo" class="logo" />
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a href="#faq">FAQ</a></li>
+          <li class="nav-item"><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <header class="header mobile">
+      <div class="logo-container">
+        <img src="./public/img/logotipo.png" alt="logo" class="logo" />
+      </div>
+      <div class="mobile-nav-container">
+        <button class="mobile-menu-button">
+          <img src="./public/svg/menu-icon.svg" alt="menu" />
+        </button>
+        <nav class="mobile-nav-links">
+          <ul>
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a href="#servicos">Serviços</a></li>
+            <li class="nav-item"><a href="#faq">FAQ</a></li>
+            <li class="nav-item"><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section-container hero-container" id="home">
+        <div class="hero-text slide-to-right" id="hero-text">
+          <h1 class="title">Crie Landing Pages de Alta Conversão.</h1>
+          <p>
+            Transforme visitantes em clientes com páginas web modernas, rápidas
+            e focadas em resultados. Nós cuidamos do design e desenvolvimento
+            para que você foque em vender mais.
+          </p>
+        </div>
+        <div class="form-box fade-in-right">
+          <h2 class="subtitle">Solicite um orçamento gratuito</h2>
+          <form action="" class="form-container">
+            <div class="input-group">
+              <label for="name">Nome</label>
+              <input class="input-field" type="text" id="name" name="name" />
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input class="input-field" type="email" id="email" name="email" />
+            </div>
+            <div class="input-group">
+              <label for="phone">Telefone</label>
+              <input class="input-field" type="text" id="phone" name="phone" />
+            </div>
+            <div class="input-group">
+              <label for="message">Mensagem</label>
+              <textarea
+                class="text-area-field"
+                id="message"
+                name="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="cta-button">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <section class="section-container about-container" id="sobre">
+        <div class="track fade-in-up">
+          <div class="carrousel-item">
+            <div class="about-text">
+              <h2 class="subtitle">Quem Somos</h2>
+              <p>
+                Somos a GWDesign, uma agência especializada no design e
+                desenvolvimento de landing pages. Combinamos estética premium
+                com estratégias avançadas de conversão para destacar o seu
+                negócio.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="./public/img/aboutHands.png" alt="about" />
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="about-text">
+              <h2 class="subtitle">Nossa Abordagem</h2>
+              <p>
+                Acreditamos que cada projeto é único. Nossa equipe analisa os
+                seus objetivos e o seu público para criar páginas otimizadas
+                para SEO, extremamente rápidas e feitas para atrair a atenção.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="./public/img/aboutDialogue.png" alt="" />
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <div class="about-text">
+              <h2 class="subtitle">Por que nos escolher?</h2>
+              <p>
+                Entregamos soluções completas: do rascunho de design à
+                implementação em código, até o seu site ir ao ar. Tenha uma
+                verdadeira máquina de conversão para suas campanhas.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="./public/img/aboutComputer.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-container services-container" id="servicos">
+        <h2 class="subtitle fade-in-down">Com nosso serviço você:</h2>
+        <div class="services-grid">
+          <div class="services-card fade-in-up delay-1">
+            <img src="./public/svg/book-add.svg" alt="design" />
+            <div>
+              <h3>Design Personalizado</h3>
+              <p>
+                Criamos interfaces atrativas e modernas, perfeitamente alinhadas
+                com a identidade visual da sua marca.
+              </p>
+            </div>
+          </div>
+          <div class="services-card fade-in-up delay-2">
+            <img src="./public/svg/calendar-check.svg" alt="calendario" />
+            <div>
+              <h3>Entrega no Prazo</h3>
+              <p>
+                Cumprimos prazos rigorosos para que seu projeto seja entregue
+                dentro do cronograma combinado, sem surpresas.
+              </p>
+            </div>
+          </div>
+          <div class="services-card fade-in-up delay-3">
+            <img src="./public/svg/chat.svg" alt="chat" />
+            <div>
+              <h3>Suporte Dedicado</h3>
+              <p>
+                Orientamos a implantação e oferecemos suporte para garantir que
+                seu projeto continue sempre no ar.
+              </p>
+            </div>
+          </div>
+          <div class="services-card fade-in-up delay-4">
+            <img src="./public/svg/cart.svg" alt="carrinho" />
+            <div>
+              <h3>Foco em Conversão</h3>
+              <p>
+                Estruturamos seções e botões de ação para guiar o usuário de
+                forma intuitiva a comprar ou entrar em contato.
+              </p>
+            </div>
+          </div>
+          <div class="services-card fade-in-up delay-5">
+            <img src="./public/svg/clock.svg" alt="relogio" />
+            <div>
+              <h3>Alta Velocidade</h3>
+              <p>
+                Utilizamos tecnologias modernas e eficientes para garantir que
+                os tempos de carregamento sejam mínimos.
+              </p>
+            </div>
+          </div>
+          <div class="services-card fade-in-up delay-6">
+            <img src="./public/svg/home.svg" alt="casa" />
+            <div>
+              <h3>Responsividade</h3>
+              <p>
+                Sua landing page funcionará perfeitamente e terá ótima aparência
+                no celular, tablet ou desktop.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="secondary-button fade-in-up"
+          onclick="window.location.href = '#home'"
+        >
+          Saiba mais
+        </button>
+      </section>
+
+      <section class="section-container faq-container" id="faq">
+        <h2 class="subtitle fade-in-down">FAQ</h2>
+        <div class="faq-grid">
+          <div class="faq-item fade-in-left delay-1">
+            <span class="faq-question" id="question">
+              <h3>Quanto tempo demora a entrega?</h3>
+              <button>
+                <img
+                  src="./public/svg/calendar-check.svg"
+                  alt="plus"
+                  class="faq-icon"
+                />
+              </button>
+            </span>
+            <p class="faq-answer hidden">
+              O tempo de desenvolvimento varia de acordo com o tamanho do
+              projeto, mas na maioria dos casos entregamos sua página entre 7 e
+              14 dias úteis após a aprovação inicial das informações.
+            </p>
+          </div>
+          <div class="faq-item fade-in-left delay-2">
+            <span class="faq-question" id="question">
+              <h3>Fazem o design e a programação?</h3>
+              <button>
+                <img
+                  src="./public/svg/calendar-check.svg"
+                  alt="plus"
+                  class="faq-icon"
+                />
+              </button>
+            </span>
+            <p class="faq-answer hidden">
+              Sim! Trabalhamos ponta a ponta. Nossa equipe criará o protótipo de
+              design e, após aprovação, será desenvolvido no código utilizando
+              as melhores tecnologias web.
+            </p>
+          </div>
+          <div class="faq-item fade-in-left delay-3">
+            <span class="faq-question" id="question">
+              <h3>Meu site aparecerá no Google?</h3>
+              <button>
+                <img
+                  src="./public/svg/calendar-check.svg"
+                  alt="plus"
+                  class="faq-icon"
+                />
+              </button>
+            </span>
+            <p class="faq-answer hidden">
+              Com certeza. Nossas landing pages são desenvolvidas seguindo boas
+              práticas de código semântico e regras de otimização (SEO),
+              facilitando a descoberta na internet.
+            </p>
+          </div>
+          <div class="faq-item fade-in-left delay-4">
+            <span class="faq-question" id="question">
+              <h3>A Hospedagem está inclusa?</h3>
+              <button>
+                <img
+                  src="./public/svg/calendar-check.svg"
+                  alt="plus"
+                  class="faq-icon"
+                />
+              </button>
+            </span>
+            <p class="faq-answer hidden">
+              Esses custos de servidores/domínios não fazem parte do pacote de
+              desenvolvimento padrão, mas vamos orientar e auxiliar nas
+              implantações para que você não precise se preocupar com aspectos
+              técnicos.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-container contact-container" id="contato">
+        <div class="fade-in-left">
+          <h2 class="subtitle">Pronto para decolar?</h2>
+          <p>
+            Dê o próximo passo para alavancar suas vendas e seu alcance digital.
+            Estamos prontos para entender seu projeto e oferecer a melhor
+            solução em tecnologia e design para as suas Landing Pages.
+          </p>
+        </div>
+        <div class="contact-card scale-in">
+          <p>
+            Fale com um de nossos especialistas e tire o seu projeto do papel
+            hoje mesmo de forma fácil.
+          </p>
+          <button class="cta-button" onclick="window.location.href = '#home'">
+            Contate-nos agora!
+          </button>
+          <p class="description">
+            Entraremos em contato o mais rápido possível para agendarmos um
+            bate-papo de alinhamento.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-container">
+      <p>Desenvolvido por: Gabriel William Lopes Rodrigues</p>
+      <p>Guarulhos-SP 2026</p>
+    </footer>
+
+    <script type="module" src="./public/js/index.js"></script>
+  </body>
+</html>

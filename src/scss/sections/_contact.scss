@@ -1,0 +1,30 @@
+@use "../base/tokens" as *;
+
+.contact-container {
+  font-size: $font-size-h5;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  background: $bg-circle-gradient;
+}
+
+.contact-card {
+  font-size: $font-size-h5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: $card-bg;
+  color: $bg-black;
+  padding: 2rem;
+  width: 100%;
+
+  .description {
+    font-size: $font-size-small;
+    color: $text-dark;
+  }
+}
