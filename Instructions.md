@@ -6,10 +6,6 @@ Landing page institucional da **GWDesign**, uma agência especializada em design
 
 ## Como Rodar
 
-### Online
-
-Clique [aqui]() para acessar o projeto.
-
 ### Localmente
 
 - [Node.js](https://nodejs.org/) (v18 ou superior recomendado)
@@ -19,8 +15,8 @@ Clique [aqui]() para acessar o projeto.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/landingPage-EllosDesign.git
-cd landingPage-EllosDesign
+git clone https://github.com/WilliamLopes021/teste-frontend-developer.git
+cd teste-frontend-developer
 
 # Instale as dependências
 npm install
@@ -57,7 +53,7 @@ O projeto segue uma arquitetura modular organizada em camadas:
 
 O JavaScript é organizado em módulos ES nativos:
 
-``` cmd
+```cmd
 src/public/js/
 ├── index.js              # Ponto de entrada — importa e inicializa tudo
 ├── accodion.js           # Lógica de abrir/fechar do FAQ
